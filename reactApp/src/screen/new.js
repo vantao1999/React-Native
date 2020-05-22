@@ -8,7 +8,7 @@ const DisplayNews = () => {
 
                 <View style={styles.background}>
                     <Image style={{ position: 'absolute' }} source={require('../images/virus.png')} />
-                    <View style={{ height: 250, flexDirection: 'row' }}>
+                    <View style={{ height: 220, flexDirection: 'row' }}>
                         <Image
                             style={styles.image_header}
                             source={require('../images/drcoro.png')}
@@ -74,17 +74,20 @@ const styles = StyleSheet.create({
     background: {
         backgroundColor: '#2864be',
         overflow: 'hidden',
-    },
-    image_header: {
-        marginLeft: 55,
-        marginTop: 50,
+        height: 1000,
+        width: 1000,
+        borderRadius: 1000,
+        marginTop: -730,
+        alignSelf: 'center',
+        alignItems: 'center',
+        justifyContent: 'flex-end',
     },
     title_header: {
         color: 'white',
         fontSize: 25,
-        width: '55%',
-        marginTop: 70,
-        marginLeft: -80,
+        width: '15%',
+        marginTop: 30,
+        marginLeft: -50,
     },
     touchLocation: {
         flexDirection: 'row',

@@ -80,9 +80,17 @@ const styles = StyleSheet.create({
     background: {
         backgroundColor: '#2864be',
         overflow: 'hidden',
+        height: 1000,
+        width: 1000,
+        borderRadius: 1000,
+        marginTop: -750,
+        alignItems: 'center',
+        alignSelf: 'center',
+        justifyContent: 'flex-end',
     },
     viewcontainer: {
-        height: 220,
+        marginBottom: 100,
+        height: 160,
         flexDirection: 'row',
     },
     image_header: {
@@ -92,7 +100,7 @@ const styles = StyleSheet.create({
     title_header: {
         color: 'white',
         fontSize: 25,
-        width: '55%',
+        width: '30%',
         marginTop: 70,
         marginLeft: -70,
     },
